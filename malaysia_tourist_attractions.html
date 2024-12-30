@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f1a08c421ea8caddd0e08193d19364cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f1a08c421ea8caddd0e08193d19364cf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f1a08c421ea8caddd0e08193d19364cf = L.map(
+                "map_f1a08c421ea8caddd0e08193d19364cf",
+                {
+                    center: [4.2105, 101.9758],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6f10bb14e9e1469ae5aafb55a7ff0be4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6f10bb14e9e1469ae5aafb55a7ff0be4.addTo(map_f1a08c421ea8caddd0e08193d19364cf);
+        
+    
+            var marker_4109ae433d8353ffb8fdcaeb686365ac = L.marker(
+                [5.4321, 100.2763],
+                {
+}
+            ).addTo(map_f1a08c421ea8caddd0e08193d19364cf);
+        
+    
+            var icon_458d1c3f307fe7eb2753ee0c25bc54e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4109ae433d8353ffb8fdcaeb686365ac.setIcon(icon_458d1c3f307fe7eb2753ee0c25bc54e7);
+        
+    
+        var popup_7abae4d1e282b71afb15157b973d4f2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef785efe2dfdce82ba1959f1ba1c5687 = $(`<div id="html_ef785efe2dfdce82ba1959f1ba1c5687" style="width: 100.0%; height: 100.0%;">Penang Hill - Offers stunning views of the city and surrounding jungle</div>`)[0];
+                popup_7abae4d1e282b71afb15157b973d4f2d.setContent(html_ef785efe2dfdce82ba1959f1ba1c5687);
+            
+        
+
+        marker_4109ae433d8353ffb8fdcaeb686365ac.bindPopup(popup_7abae4d1e282b71afb15157b973d4f2d)
+        ;
+
+        
+    
+    
+            var marker_958244c50430186c3dc38b2e3a892c3f = L.marker(
+                [3.1578, 101.7115],
+                {
+}
+            ).addTo(map_f1a08c421ea8caddd0e08193d19364cf);
+        
+    
+            var icon_132ecfce4ee82da1c0a0b602a7e3a640 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_958244c50430186c3dc38b2e3a892c3f.setIcon(icon_132ecfce4ee82da1c0a0b602a7e3a640);
+        
+    
+        var popup_5b2e938054b54c3bd9af9f5eb308546c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2b918bbc18f558fc8803dde3735597a = $(`<div id="html_c2b918bbc18f558fc8803dde3735597a" style="width: 100.0%; height: 100.0%;">KLCC Park - Large urban park with fountains and sculptures</div>`)[0];
+                popup_5b2e938054b54c3bd9af9f5eb308546c.setContent(html_c2b918bbc18f558fc8803dde3735597a);
+            
+        
+
+        marker_958244c50430186c3dc38b2e3a892c3f.bindPopup(popup_5b2e938054b54c3bd9af9f5eb308546c)
+        ;
+
+        
+    
+    
+            var marker_fc0dc3551d69649f5b5aac39802ac368 = L.marker(
+                [2.1923, 102.2491],
+                {
+}
+            ).addTo(map_f1a08c421ea8caddd0e08193d19364cf);
+        
+    
+            var icon_e3545e039d7a7710628eb2d3370c68cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc0dc3551d69649f5b5aac39802ac368.setIcon(icon_e3545e039d7a7710628eb2d3370c68cd);
+        
+    
+        var popup_9d8bd4c1e48d73859164f3faec9ec6ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9af58c5be49f6d9cc0ef2c005dbf961 = $(`<div id="html_d9af58c5be49f6d9cc0ef2c005dbf961" style="width: 100.0%; height: 100.0%;">A Famosa - Historic Portuguese fortress with great views</div>`)[0];
+                popup_9d8bd4c1e48d73859164f3faec9ec6ca.setContent(html_d9af58c5be49f6d9cc0ef2c005dbf961);
+            
+        
+
+        marker_fc0dc3551d69649f5b5aac39802ac368.bindPopup(popup_9d8bd4c1e48d73859164f3faec9ec6ca)
+        ;
+
+        
+    
+</script>
+</html>
