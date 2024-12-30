@@ -1,0 +1,3 @@
+source,dataset,url
+Data.gov.my,Worker Salaries,https://archive.data.gov.my/data/en_US/datastore/dump/4ce4ccf6-f2a2-4a40-9bc0-9a44e0400e4a
+github.com,House Prices,https://raw.githubusercontent.com/ShraqueOatMeal/Malaysia-House-Price-Prediction/a4fe09d3deec98249c5a2a0004d3f82fc152dd07/mas_housing.csv
